@@ -1,0 +1,206 @@
+
+/* .App {
+>>>>>>> ee8d76e87ad3bb0a4a13f0a3b03196cf6c319e6c
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar{
+  background-color: rgb(204, 92, 126, 0.3);
+  color: white;
+}
+} */
+.containers {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: auto;
+}
+
+.app-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+body {
+  height: 95vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(247, 247, 247);
+}
+
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-right: 100px;
+  margin-top: 30px;
+  
+}
+
+li a:hover {
+  background-color: #ece3dc;
+}
+
+.title {
+  float: left;
+  font-size: 20px;
+}  
+
+.header h1 {
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.nav-item {
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.collapse {
+  justify-content: right;
+}
+
+#nav1 {
+  background-color: rgb(53, 64, 142);
+  padding: 20px 150px;
+
+}
+
+.navbar-brand,
+.nav-link,
+#home {
+  color: white;
+  font-family: ClanOT, sans-serif;
+  font-size: 15px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: rgb(241, 203, 131);
+}
+
+.message,
+p {
+  font-size: 18px;
+  background-color: rgb(216, 182, 56);
+  padding: 0px 81px;
+  font-family: ClanOT, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  
+}
+
+p {
+  padding: 5px 0px;
+  margin-left: 90px;
+  color: #353535;
+}
+
+#hello {
+  justify-content: center;
+  margin: 0;
+  width: 100vh;
+  align-items: center;
+  background-color: rgb(26, 25, 25);
+}
+
+#hey {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(247, 247, 247);
+  padding: 20px 0px;
+}
+
+#carouselExample {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+h3 {
+  text-align: left;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+.text {
+  background-color: rgb(247, 247, 247) ;
+  margin-right: 110px;
+  display: flex;
+  padding: 0px 60px;
+  font-weight: 200;
+}
