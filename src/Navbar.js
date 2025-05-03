@@ -12,10 +12,10 @@ function Navbar() {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link " href="./App.js">Home</a>
-        <a class="nav-link" href="./GDGoC.js">GDGoC</a> 
-        <a class="nav-link" href="#">JPCS</a>
-        <a class="nav-link" href="#">NU Wizards</a>
+        <a class="nav-link " href="/home">Home</a>
+        <a class="nav-link" href="/gdgoc">GDGoC</a> 
+        <a class="nav-link" href="/jpcs">JPCS</a>
+        <a class="nav-link" href="/wizard">NU Wizards</a>
       </div>
     </div>
   </div>

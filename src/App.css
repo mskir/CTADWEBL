@@ -130,7 +130,7 @@ li a:hover {
 
 #nav1 {
   background-color: rgb(53, 64, 142);
-  padding: 20px 150px;
+  padding: 20px 260px;
 
 }
 
@@ -165,7 +165,7 @@ p {
 
 p {
   padding: 5px 0px;
-  margin-left: 90px;
+  margin-left: 200px;
   color: #353535;
 }
 
@@ -193,14 +193,121 @@ p {
 h3 {
   text-align: left;
   font-weight: 500;
-  margin-top: 30px;
-  margin-left: 150px;
+  margin-left: 280px;
 }
 
 .text {
   background-color: rgb(247, 247, 247) ;
-  margin-right: 110px;
   display: flex;
-  padding: 0px 60px;
+  justify-content: right;
+  padding: 0px 80px;
   font-weight: 200;
+  margin: 0px 200px;
+}
+
+.club {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(247, 247, 247);
+  padding: 0px 0px;
+}
+
+#card {
+  margin: 0px;
+  background-color: white;
+  font-weight: 100;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 300px;
+}
+
+.message1 {
+  height: 130px;
+  width: 100%;
+  background-color: rgb(53, 64, 142);
+  color: white;
+  margin: 0;
+  padding: 40px 100px;
+}
+
+.footer {
+  display: flex;                
+  flex-direction: row;         
+  justify-content: center;      
+  align-items: center;         
+  background-color: rgb(53, 64, 142);
+  gap: 10px;                     
+  padding: 10px;               
+}
+
+.name, .message1 {
+  color: white;
+  margin: 0px 0px;
+  background-color: rgb(53, 64, 142);
+}
+
+.name {
+  margin-right: 00px;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+#clubimage {
+  height: 650px;
+  width: 1350px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.club1 {
+  background-color: white;
+  padding: 20px 10px;
+  font-size: 30px;
+  width: 89%;
+}
+
+.text1 {
+  background-color: white;
+  padding: 0px 80px;
+  font-weight: 100;
+}
+
+.club11,
+.club111 {
+  background-color: white;
+}
+
+.card-text {
+  background-color: white;
+  display: flex;
+  width: 200px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card-container {
+  margin-right: 100px;
+}
+
+.card-container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 270px;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  background-color: rgb(53, 64, 142);
 }
